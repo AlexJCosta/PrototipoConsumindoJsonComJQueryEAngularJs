@@ -1,0 +1,200 @@
+/* buttonTransparenteFundoBranco  */
+/* buttonTrasparenteAzul */
+/* buttonImpressora */
+/* buttonTrasparente */
+/* buttonT */
+/* buttonTrasnparenteSNGPC		 */
+/* buttonTopo		 */
+.buttonTopo {
+	border: 2px solid #5085C4;
+	background-color: transparent;
+	color: #5085C4;
+	font-weight: 400;
+	font-size: 22px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonTopo:hover {
+	background-color: #5085C4;
+	color: #fff;
+}
+
+.buttonTrasnparenteSNGPC {
+	border: 2px solid #ffffff;
+	background-color: transparent;
+	margin-left: 10px;
+	margin-top: 30px;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 25px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonTrasnparenteSNGPC:hover {
+	background-color: #ffffff;
+	color: #cb1b5a
+}
+
+.buttonT {
+	border: 2px solid #ffffff;
+	background-color: transparent;
+	margin-left: 60px;
+	margin-top: 30px;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 25px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonT:hover {
+	background-color: #ffffff;
+	color: #cb1b5a
+}
+
+.buttonTrasparenteAzul {
+	border: 2px solid #5085C4;
+	background-color: transparent;
+	color: #5085C4;
+	font-weight: 400;
+	font-size: 22px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonTrasparenteAzul:hover {
+	background-color: #5085C4;
+	color: #fff;
+}
+
+.buttonTransparenteFundoBranco {
+	border: 2px solid #ffffff;
+	background-color: transparent;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 25px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonTransparenteFundoBranco:hover {
+	background-color: #fff;
+	color: #5085C4;
+}
+
+.buttonTrasparente {
+	border: 2px solid #cb1b5a;
+	background-color: transparent;
+	color: #cb1b5a;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonTrasparente:hover {
+	background-color: #cb1b5a;
+	color: #fff;
+}
+
+.buttonImpressora {
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.buttonImpressora:hover {
+	background-color: #fff;
+	color: #5085C4;
+}
