@@ -1,0 +1,276 @@
+@import
+	url("http://fonts.googleapis.com/css?family=Lato:300,300italic,400,700")
+	; /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+
+html,body {
+	font-size: 100%
+}
+
+body {
+	background: #fff;
+	color: #222;
+	
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	
+}
+
+
+
+.printer .printer-box {
+	background-color: #5185c5;
+	height: 720px
+}
+
+.printer .printer-info {
+	padding-top: 20px;
+	text-align: center;
+	color: #ffffff
+}
+
+.printer .printer-info h1 {
+	font-family: "Lato";
+	margin-top: 0;
+	font-size: 48px;
+	font-weight: 300;
+	margin-bottom: 0;
+	color: #ffffff
+}
+
+.printer .printer-info h2 {
+	font-family: "Lato";
+	font-size: 48px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-top: 0;
+	margin-bottom: 20px
+}
+
+.printer .printer-info h2:last-child {
+	font-size: 18px;
+	padding-bottom: 20px;
+	width: 770px;
+	display: inline-block;
+	font-weight: 400
+}
+
+.printer .print-details {
+	position: relative
+}
+
+.printer .print-details .printer-image {
+	background-image: url(../img/printer-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	height: 325px
+}
+
+.printer .print-details .printer-image img {
+	margin-top: 50px;
+	display: none;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease
+}
+
+.printer .print-details .printer-image img.active {
+	display: inline-block
+}
+
+.printer .print-details .printer-image img#details-code {
+	margin-top: 110px
+}
+
+.printer .print-details .printer-image img#details-speed {
+	margin-top: 65px
+}
+
+.printer .print-details .printer-image img#details-coil {
+	margin-top: 90px
+}
+
+.printer .print-details .printer-image img#details-economy {
+	margin-top: 100px
+}
+
+.printer .print-details .details {
+	position: absolute;
+	font-weight: 300;
+	width: 238px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Lato";
+	-webkit-transition: color 0.3s ease-out;
+	-moz-transition: color 0.3s ease-out;
+	transition: color 0.3s ease-out
+}
+
+.printer .print-details .details strong {
+	font-weight: 700
+}
+
+.printer .print-details .details.top-left {
+	left: 30px
+}
+
+.printer .print-details .details.top-left span {
+	background-position: -3098px 0;
+	height: 35px;
+	width: 114px;
+	display: inline-block;
+	position: absolute;
+	right: -90px;
+	top: 60px
+}
+
+.printer .print-details .details.top-left:hover {
+	color: #ffffff
+}
+
+.printer .print-details .details.top-left:hover span {
+	background-position: -2984px 0;
+	height: 35px;
+	width: 114px
+}
+
+.printer .print-details .details.top-right {
+	right: 30px
+}
+
+.printer .print-details .details.top-right span {
+	background-position: -3323px 0;
+	height: 35px;
+	width: 111px;
+	display: inline-block;
+	position: absolute;
+	left: -87px;
+	top: 60px
+}
+
+.printer .print-details .details.top-right:hover {
+	color: #ffffff
+}
+
+.printer .print-details .details.top-right:hover span {
+	background-position: -3212px 0;
+	height: 35px;
+	width: 111px
+}
+
+.printer .print-details .details.bottom-right {
+	right: 30px;
+	bottom: 30px
+}
+
+.printer .print-details .details.bottom-right span {
+	background-position: -2870px 0;
+	height: 35px;
+	width: 114px;
+	display: inline-block;
+	position: absolute;
+	left: -115px;
+	top: 14px
+}
+
+.printer .print-details .details.bottom-right:hover {
+	color: #ffffff
+}
+
+.printer .print-details .details.bottom-right:hover span {
+	background-position: -2756px 0;
+	height: 35px;
+	width: 114px
+}
+
+.printer .print-details .details.bottom-left {
+	bottom: 30px;
+	left: 30px
+}
+
+.printer .print-details .details.bottom-left span {
+	background-position: -2644px 0;
+	height: 34px;
+	width: 112px;
+	display: inline-block;
+	position: absolute;
+	right: -112px;
+	top: 60px
+}
+
+.printer .print-details .details.bottom-left:hover {
+	color: #ffffff
+}
+
+.printer .print-details .details.bottom-left:hover span {
+	background-position: -2532px 0;
+	height: 34px;
+	width: 112px
+}
+
+.printer .print-details div {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.printer .print-details .details-button {
+	border: 2px solid #ffffff;
+	background-color: transparent;
+	color: #ffffff;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out
+}
+
+.printer .print-details .details-button span {
+	background-position: -2215px 0;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: auto;
+	position: relative;
+	top: 3px
+}
+
+.printer .print-details .details-button:hover {
+	background-color: #ffffff;
+	color: #5185c5
+}
+
+.printer .print-details .details-button:hover span {
+	background-position: -2199px 0;
+	height: 16px;
+	width: 16px
+}
+
+.printer .print-details .details-button:active {
+	background-color: #ededed;
+	color: #5185c5
+}
+
+.printer .print-details .details-button:active span {
+	background-position: -2183px 0;
+	height: 16px;
+	width: 16px
+}
